@@ -9,3 +9,9 @@ puts <<~TEXT
 
 
 TEXT
+
+users = ["saitou", "taria", "yamada", "hayato"]
+
+users.each do |user|
+  puts user
+end
